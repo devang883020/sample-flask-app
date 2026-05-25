@@ -1,0 +1,11 @@
+name: sample-app
+runtime: python
+port: 8000
+replicas: 1
+env:
+  - name: APP_NAME
+    value: "sample-app"
+  - name: APP_VERSION
+    value: "1.0.0"
+  - name: ENV
+    value: "production"
